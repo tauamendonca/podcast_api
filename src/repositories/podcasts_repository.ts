@@ -5,15 +5,16 @@ import { PodcastModel } from "../models/podcast_model";
 const pathData = path.join(__dirname, "../repositories/podcasts.json");
 
 export const repositoryPodcast = async (
-    podcastName?: string
+    podcastEpisode?: string
 ): Promise<PodcastModel[]> => {
+    const language = "utf-8";
 
-    const rawData = fs.readFileSync("D:/Code/DIO/podcast_api/src/repositories/podcasts.json", "utf-8");
+    const rawData = fs.readFileSync(pathData, language);
     let jsonFile = JSON.parse(rawData);
     
-    if(podcastName) {
+    if(podcastEpisode) {
         jsonFile = jsonFile.filter((podcast: PodcastModel) => 
-            podcast.podcastName === podcastName);
+            podcast.episode === podcastEpisode);
     }
     
     return jsonFile;
