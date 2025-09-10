@@ -4,26 +4,53 @@
             "episodeNumber": "1",
             "episode": "Metal",
             "videoId": "bTdBPHObC4o",
-            "cover": "https://i.ytimg.com/vi/bTdBPHObC4o/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gOig0MA8=&rs=AOn4CLDlTxjCef5MGkGYJGx6xmlJDiDIWA",
+            "cover": "https://i.ytimg.com/vi/bTdBPHObC4o/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gOig0MA8=&rs=AOn4CLBbS7zzq_xIjdTeUFN8wz5CCzKfag",
             "link": "https://www.youtube.com/watch?v=bTdBPHObC4o",
-            "categories": ["música", "cultura", "transporte alternativo"]    
+            "categories": ["música", "cultura", "transporte alternativo", "humor"]    
         },
         {
             "podcastName": "Ambiente de Música",
             "episodeNumber": "2",
             "episode": "Rock Nacional",
             "videoId": "JLD6PfYMcZQ",
-            "cover": "https://i.ytimg.com/vi/JLD6PfYMcZQ/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gNygxMA8=&rs=AOn4CLCk66Pli10Tc90GCj6GFL3y-tNw-A",
+            "cover": "https://i.ytimg.com/vi/JLD6PfYMcZQ/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gNygxMA8=&rs=AOn4CLAqXptMwjITAaPYQqmChXduWDskGA",
             "link": "https://www.youtube.com/watch?v=JLD6PfYMcZQ",
-            "categories": ["música", "cultura", "transporte alternativo"]
+            "categories": ["música", "cultura", "transporte alternativo", "humor"]
         },
         {
             "podcastName": "Ambiente de Música",
             "episodeNumber": "3",
             "episode": "Música de Pulo",
             "videoId": "vSdWoMkLtzs",
-            "cover": "https://i.ytimg.com/vi/vSdWoMkLtzs/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-DoACuAiKAgwIABABGHIgOig0MA8=&rs=AOn4CLAruBq69FwOlNCc12NpRIVMjd1JDg",
+            "cover": "https://i.ytimg.com/vi/vSdWoMkLtzs/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-DoACuAiKAgwIABABGHIgOig0MA8=&rs=AOn4CLASDvYVLN68SjlAk6cktniJSFXRvg",
             "link": "https://www.youtube.com/watch?v=vSdWoMkLtzs",
-            "categories": ["música", "cultura", "transporte alternativo"]    
+            "categories": ["música", "cultura", "transporte alternativo", "humor"]    
+        },
+        {
+            "podcastName": "Falha de Cobertura",
+            "episodeNumber": "250",
+            "episode": "Lesão mental",
+            "videoId": "w7zMyRmegNA",
+            "cover": "https://i.ytimg.com/vi/w7zMyRmegNA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCDD-Z2jf1VbrM38VHuEmstUj2jSQ",
+            "link": "https://www.youtube.com/watch?v=w7zMyRmegNA",
+            "categories": ["futebol", "esporte", "hidratação"]    
+        },
+        {
+            "podcastName": "Falha de Cobertura",
+            "episodeNumber": "251",
+            "episode": "Trisal do bem",
+            "videoId": "RfcgP0Zhc3M",
+            "cover": "https://i.ytimg.com/vi/RfcgP0Zhc3M/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC6XfrOUStUkHnpOYvZJ5h_xBIr1A",
+            "link": "https://www.youtube.com/watch?v=RfcgP0Zhc3M",
+            "categories": ["futebol", "esporte", "hidratação", "humor"]    
+        },
+        {
+            "podcastName": "Falha de Cobertura",
+            "episodeNumber": "252",
+            "episode": "Neymar condenado a jogar",
+            "videoId": "ckCjUS1j0io",
+            "cover": "https://i.ytimg.com/vi/ckCjUS1j0io/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBHBPbIsdGgJzz8tm0qXzKMRa51KA",
+            "link": "https://www.youtube.com/watch?v=ckCjUS1j0io",
+            "categories": ["futebol", "esporte", "hidratação", "humor"]    
         }
     ]

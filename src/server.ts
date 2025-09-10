@@ -8,10 +8,12 @@ const server = http.createServer(async (
     req: http.IncomingMessage, 
     res: http.ServerResponse
 ) => {
-    if (req.method === "GET" && req.url === "/api/list") {
+    const baseURL = req.url?.split("?")[0];
+
+    if (req.method === "GET" && baseURL === "/api/list") {
         await getListEpisodes(req, res);
     }
-    if (req.method === "GET" && req.url === "/api/episode") {
+    if (req.method === "GET" && baseURL === "/api/filter") {
         await getFilterEpisodes(req, res);
     }
 });

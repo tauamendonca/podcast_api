@@ -16,7 +16,10 @@ export const getFilterEpisodes = async (
     req: IncomingMessage,
     res: ServerResponse,
 ) => {
-    const content = await serviceFilterEpisodes("Ambiente de Música");
+    const queryString = req.url?.split("?p=")[1] ?? "";
+    const decodedString = decodeURI(queryString);
+
+    const content = await serviceFilterEpisodes(decodedString);
 
     res.writeHead(200, {"Content-Type": "application/json"});
     res.end(JSON.stringify(content));
