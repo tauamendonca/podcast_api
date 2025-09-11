@@ -2,12 +2,15 @@
 
 ## Descrição
 
-O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite centralizar diferentes episódios de podcasts separados por categoria. Este projeto visa facilitar o acesso e a organização de episódios de podcasts em formato de vídeo, proporcionando uma experiência de navegação intuitiva e agradável para os usuários.
+O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite centralizar diferentes episódios de podcasts separados por categoria. Este projeto visa facilitar o acesso e a organização de episódios de podcasts em formato de vídeo, proporcionando uma experiência de navegação intuitiva e agradável para os usuários. Foi criado a partir de um projeto original do bootcamp MeuTudo Mobile Developer da DIO, e o projeto original pode ser cechado [aqui](https://github.com/felipeAguiarCode/node-ts-webapi-without-frameworks-podcast-menager).
 
 ## Funcionalidades
 
 - **Listar os episódios de podcasts em sessões de categorias:** Os episódios são organizados em categorias como esporte, música, cultura e humor, permitindo aos usuários explorar facilmente os conteúdos disponíveis.
 - **Filtrar episódios por nome de podcast:** Os usuários podem realizar buscas específicas por nome de podcast, facilitando o acesso aos episódios desejados.
+
+### Funcionalidades adicionadas por mim
+- **Filtrar episódios por nome dos mesmos:** Os usuários podem realizar buscas por uma palavra ou uma frase que seja o nome do episódio cadastrado, facilitando encontrar um episódio específico.
 
 ## Implementação
 
@@ -42,9 +45,17 @@ O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite
 
 ### Filtrar episódios por nome de podcast
 
-- **Endpoint:** `GET /episode?podcastName={nome}`
-- **Descrição:** Retorna uma lista de episódios de podcast com base no nome do podcast fornecido.
-- **Exemplo de requisição:** `GET /episode?podcastName=Falha%20de%20Cobertura`
+- **Endpoint:** `GET /podcasts?podcastName={nome}`
+- **Descrição:** Retorna uma lista de episódios de podcast com base no nome do podcast fornecido. Não é case sensitive,mas leva em conta espaços.
+- **Exemplo de requisição:** `GET /podcasts?podcastName=Falha%20de%20Cobertura`
+
+
+### Filtrar episódios por nome de episódio
+
+- **Endpoint:** `GET /episodes?episode={nome}`
+- **Descrição:** Retorna uma lista de episódios de todos os podcasts com base no nome de episódio fornecido. Não é case sensitive,mas leva em conta espaços.
+- **Exemplo de requisição:** `GET /episodes?podcastName=naCional`
+
 
 ## Tecnologias Utilizadas
 
@@ -61,12 +72,14 @@ O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite
 3. Inicie o servidor executando `start:dev`.
 4. Acesse os endpoints fornecidos para listar os episódios de podcasts ou filtrá-los por nome de podcast.
 
-### Observação
+### Observações
 
 Para fazer buscas usando URL utilizar as seguintes expressões, devido a presença de espaços e caracteres com acento:
 - Ambiente%20de%20M%C3%BAsica
 - Falha%20de%20Cobertura
 Um frontend terá que fazer o URI encode para poder enviar os parâmetros corretamente através das URLs da API.
+
+Foram realizadas algumas mudanças nas regras de negócio para garantir as respostas sem erros do servidor à busca por episódio e por nome. Recomendo comparação com o código original.
 
 ## Contribuição
 
